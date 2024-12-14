@@ -1,0 +1,34 @@
+**Brief for Learner: Web Development Project - Salary Calculator**
+
+**Objective:**
+The learner is tasked with creating an interactive web-based salary calculator that provides users with the average salary for different professions in various countries. The goal is to enhance the user experience by incorporating country flags to represent each location.
+
+**Instructions:**
+
+1. **Dropdown Modification:**
+   - Add a `<span>` element to display the selected country's flag above the country dropdown.
+   - Update the country dropdown options to include the Unicode flag along with the country name.
+
+2. **JavaScript Updates:**
+   - Modify the JavaScript code to dynamically populate the country dropdown with both country names and flags.
+   - Implement a function, `updateCountryFlag()`, to update the displayed flag when a user selects a country.
+
+3. **Unicode Flags:**
+   - Use Unicode to represent flags. Refer to the Unicode flags for the 10 countries: Palestine, Pakistan, Yemen, Kenya, Turkey, South Africa, United States, United Kingdom, Singapore, and Australia.
+
+4. **HTML and CSS:**
+   - Ensure that the HTML and CSS files are updated to accommodate the changes in the dropdowns and the new flag display.
+
+5. **Testing:**
+   - Conduct thorough testing to ensure that the flags are displayed correctly and that the calculator functions as expected.
+
+**Additional Tips:**
+   - Consider styling adjustments to make the flags visually appealing and in harmony with the overall design.
+   - Test the application's responsiveness to guarantee a seamless experience across various devices.
+
+**Delivery:**
+   - Provide the updated HTML, CSS, and JavaScript files along with any necessary assets.
+   - Include documentation on how to set up and run the application, highlighting the newly added features- Include instructions in the readme.md provided
+
+**Note:**
+   - This brief encourages creativity in implementing the flag feature while maintaining a professional and user-friendly design. The learner is encouraged to explore additional visual enhancements that contribute to an engaging user experience.
