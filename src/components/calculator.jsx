@@ -1,10 +1,10 @@
 const Calculator = () => {
   return (
     <>
-      <div className="-mt-20 flex w-full justify-center">
-        <div className="w-fit rounded-full bg-white bg-opacity-30 p-5 backdrop-blur-lg">
+      <div className="absolute -bottom-8 flex justify-center md:left-1/2 md:top-1/2 md:h-fit md:-translate-x-1/2 md:-translate-y-1/2 md:transform">
+        <div className="~sm/xl:~h-20/36 ~sm/xl:~w-20/36 flex items-center justify-center rounded-full bg-white bg-opacity-40 backdrop-blur-lg">
           <svg
-            className="w-10 fill-white"
+            className="~sm/lg:~w-10/16 fill-white"
             version="1.1"
             id="Layer_1"
             xmlns="http://www.w3.org/2000/svg"

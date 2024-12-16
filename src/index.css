@@ -2,3 +2,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* For Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(168, 100%, 21%);
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(174, 33%, 83%);
+  border-radius: 50px;
+}

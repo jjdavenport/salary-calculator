@@ -4,14 +4,17 @@ import Categories from "./components/categories";
 import data from "./assets/data.json";
 import Salary from "./components/salary";
 import { useState } from "react";
+import { useMediaQuery } from "react-responsive";
 
 function App() {
   const [salary, setSalary] = useState(0);
+  const desktop = useMediaQuery({ minWidth: 768 });
   return (
     <>
-      <div className="h-full min-h-screen font-custom text-base">
-        <section className="flex flex-col gap-2 bg-role bg-cover bg-no-repeat px-4 pb-28 pt-10">
+      <div className="flex h-full min-h-screen flex-col font-custom text-base md:flex-row">
+        <section className="relative flex flex-col items-center gap-2 bg-role bg-cover bg-no-repeat px-4 pb-28 pt-10 md:w-1/2 md:justify-center">
           <Type
+            desktop={desktop}
             svg={
               <svg
                 className="w-6 fill-white"
@@ -29,6 +32,7 @@ function App() {
           />
           <Categories type="Role" data={data.countries.Palestine} />
           <Type
+            desktop={desktop}
             svg={
               <svg
                 className="w-6 fill-white"
@@ -53,9 +57,10 @@ function App() {
             type="Country"
           />
           <Categories type="Country" data={data.countries} />
+          {!desktop && <Calculator />}
         </section>
-        <Calculator />
-        <section className="bg-salary bg-cover bg-no-repeat">
+        {desktop && <Calculator />}
+        <section className="flex flex-col items-center justify-center bg-salary bg-cover bg-no-repeat md:-mt-0 md:w-1/2">
           <Salary salary={salary} />
         </section>
       </div>

@@ -1,11 +1,11 @@
 const Salary = ({ salary }) => {
   return (
-    <div className="-mt-11 flex flex-col items-center justify-center px-4 py-32 text-white">
-      <div className="flex w-full flex-col items-center gap-2 rounded-lg bg-transparent px-2 pb-10 pt-2 outline outline-2 outline-white backdrop-blur-md">
-        <h1 className="text-lg">Your Salary</h1>
-        <span className="text-2xl">${salary}</span>
+    <main className="flex w-full flex-col items-center justify-center px-4 py-32 text-white md:w-9/12 md:py-0">
+      <div className="~sm/md:~gap-2/0 flex w-full flex-col items-center rounded-lg bg-transparent px-2 pb-10 pt-2 outline outline-2 outline-white backdrop-blur-md md:px-0 md:pb-0">
+        <h1 className="~sm/md:~text-lg/2xl">Your Salary</h1>
+        <span className="~sm/md:~text-2xl/6xl ~sm/md:~p-0/40">${salary}</span>
       </div>
-    </div>
+    </main>
   );
 };
 

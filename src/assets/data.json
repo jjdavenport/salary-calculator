@@ -1,70 +1,70 @@
 {
   "countries": {
     "Palestine": {
-      "icon": "./public/flag-palestine.png",
+      "icon": "images/flag-palestine.png",
       "Designer": 25000,
       "Doctor": 60000,
       "Engineer": 40000,
       "Driver": 15000
     },
     "Pakistan": {
-      "icon": "./public/flag-pakistan.png",
+      "icon": "images/flag-pakistan.png",
       "Designer": 30000,
       "Doctor": 70000,
       "Engineer": 45000,
       "Driver": 20000
     },
     "Yemen": {
-      "icon": "./public/flag-yemen.png",
+      "icon": "images/flag-yemen.png",
       "Designer": 20000,
       "Doctor": 55000,
       "Engineer": 35000,
       "Driver": 12000
     },
     "Kenya": {
-      "icon": "./public/flag-kenya.png",
+      "icon": "images/flag-kenya.png",
       "Designer": 35000,
       "Doctor": 75000,
       "Engineer": 50000,
       "Driver": 25000
     },
     "Turkey": {
-      "icon": "./public/flag-turkey.png",
+      "icon": "images//flag-turkey.png",
       "Designer": 40000,
       "Doctor": 80000,
       "Engineer": 55000,
       "Driver": 30000
     },
     "South Africa": {
-      "icon": "./public/flag-south_africa.png",
+      "icon": "images/flag-south_africa.png",
       "Designer": 30000,
       "Doctor": 65000,
       "Engineer": 45000,
       "Driver": 18000
     },
     "United States": {
-      "icon": "./public/flag-united_states.webp",
+      "icon": "images/flag-united_states.webp",
       "Designer": 70000,
       "Doctor": 150000,
       "Engineer": 100000,
       "Driver": 50000
     },
     "United Kingdom": {
-      "icon": "./public/flag-united_kingdom.png",
+      "icon": "images/flag-united_kingdom.png",
       "Designer": 65000,
       "Doctor": 140000,
       "Engineer": 95000,
       "Driver": 45000
     },
     "Singapore": {
-      "icon": "./public/flag-singapore.png",
+      "icon": "images/flag-singapore.png",
       "Designer": 60000,
       "Doctor": 130000,
       "Engineer": 90000,
       "Driver": 40000
     },
     "Australia": {
-      "icon": "./public/flag-australia.png",
+      "icon": "images/flag-australia.png",
       "Designer": 75000,
       "Doctor": 160000,
       "Engineer": 110000,
