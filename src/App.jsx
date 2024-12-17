@@ -7,6 +7,8 @@ import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
 function App() {
+  const [country, setCountry] = useState(null);
+  const [job, setJob] = useState(null);
   const [salary, setSalary] = useState(0);
   const desktop = useMediaQuery({ minWidth: 768 });
   return (
