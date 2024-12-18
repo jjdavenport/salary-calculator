@@ -7,10 +7,13 @@ import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
 function App() {
-  const [country, setCountry] = useState(null);
-  const [job, setJob] = useState(null);
-  const [salary, setSalary] = useState(0);
+  const [salary, setSalary] = useState({
+    country: null,
+    job: null,
+    amount: 0,
+  });
   const desktop = useMediaQuery({ minWidth: 768 });
+
   return (
     <>
       <div className="flex h-full min-h-screen flex-col font-custom text-base md:flex-row">
@@ -32,7 +35,7 @@ function App() {
             }
             type="Role"
           />
-          <Categories type="Role" data={data.countries.Palestine} />
+          <Categories setSalary={setSalary} type="Role" data={data.countries} />
           <Type
             desktop={desktop}
             svg={
@@ -58,7 +61,11 @@ function App() {
             }
             type="Country"
           />
-          <Categories type="Country" data={data.countries} />
+          <Categories
+            setSalary={setSalary}
+            type="Country"
+            data={data.countries}
+          />
           {!desktop && <Calculator />}
         </section>
         {desktop && <Calculator />}
